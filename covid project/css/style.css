@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.now {
+    position: relative;
+}
+
+.in {
+    position: absolute;
+    bottom: 200px;
+    left: 20%;
+}
+
+.head {
+    position: relative;
+}
+
+.head::before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    border: 4px solid red;
+    border-radius: 10px;
+    top: 55px;
+}
+
+.boxer {
+    box-shadow: 3px 3px 13px 5px rgb(102, 99, 99);
+    border-radius: 40px;
+    position: relative;
+    bottom: 120px;
+    left: 10px;
+}
+
+.hand {
+    box-shadow: 0px 0px 0px 0px white;
+    border-radius: 20px;
+    position: relative;
+    bottom: 430px;
+    height: 100%;
+}
+
+.inn {
+    width: 70%;
+    padding-left: 350px;
+}
+
+.inner {
+    box-shadow: 3px 3px 13px 5px rgb(102, 99, 99);
+    border-radius: 40px;
+    bottom: 120px;
+    left: 10px;
+}
+
+.bord {
+    box-shadow: 5px 1px 10px 0px rgb(102, 99, 99);
+}
+
+.date {
+    padding-left: 20%;
+
+}
+
+.topp {
+    border-radius: 20px;
+    border-color: white;
+    width: 80%;
+    height: 50px;
+
+}
